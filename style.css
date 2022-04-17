@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
-body{
+
+body {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -12,34 +12,38 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+
 @font-face {
-  font-family:dj-dj;
+  font-family: dj-dj;
   src: url(fonts/538LyonsLogoTextRegular-2qnX.ttf);
 }
+
 p {
-  font-family:dj-dj;
+  font-family: dj-dj;
   letter-spacing: .4rem;
   color: black;
   font-weight: 800;
   font-size: 45px;
   text-align: center;
   margin-bottom: 0px;
- 
+
 
 }
-.indexHero{
+
+.indexHero {
   margin: 0;
   padding: 0;
 
 
 }
-.introBlurb{
+
+.introBlurb {
   position: absolute;
   bottom: 500px;
 }
 
-h1{
-  font-family:dj-dj;
+h1 {
+  font-family: dj-dj;
   letter-spacing: .4rem;
   color: black;
   font-weight: 800;
@@ -49,13 +53,13 @@ h1{
   margin-bottom: 0px;
 }
 
-.heroImage{ 
+.heroImage {
   position: absolute;
   bottom: 325px;
   right: 550px
 }
 
-.container{
+.container {
 
   width: 100%;
   height: 0px;
@@ -65,8 +69,8 @@ h1{
   flex-wrap: wrap;
 
 }
-.container div{
-  
+
+.container div {
   width: 100px;
   height: 0px;
   background: rgb(212, 211, 211);
@@ -78,19 +82,30 @@ h1{
   border-radius: 5px;
 }
 
-.animate{
+.animate {
   transform: scale(4.0);
 }
 
-.container div h2{
-  font-family:dj-dj;
+.name {
+  width: 100px;
+  height: 100px;
+  transition: width 2s;
+}
+
+.name:hover {
+  width: 3px;
+}
+
+.container div h2 {
+  font-family: dj-dj;
   letter-spacing: .4rem;
-  color:black;
+  color: black;
   font-weight: 800;
   font-size: 69px;
 }
-.container div h3{
-  font-family:dj-dj;
+
+.container div h3 {
+  font-family: dj-dj;
   letter-spacing: .4rem;
   color: limegreen;
   font-size: 17px;
