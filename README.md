@@ -1,7 +1,7 @@
 # Welcome to The Loop Jacker!
 ### *Attention!*  This box is JACKIN'!
 
-## To stop the audio from looping: 
+## To STOP the audio from looping: 
 ## Press any key NOT listed in the GUI!
 # NOTE--> There are HIDDEN keys for you to play with... Have Fun!
 

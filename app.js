@@ -26,9 +26,9 @@ window.addEventListener("keydown", (e) => {
 });
 //--------------------------------------------
 
-// I wanted the letters to turn green in the animation but i could not figure it out..even a hover.. or when user presses 
+// I wanted the letters to turn green... in the animation or whatever, but i could not figure it out..even a hover.. or when user randomly clicks.. Probably stressing and spent too long on this!  
 
-// Where did I go wrong ? 
+// but anyway.. Where did I go wrong ? 
 
 const greenFun = document.getElementsByClassName("name");
 
