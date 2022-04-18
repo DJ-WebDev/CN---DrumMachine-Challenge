@@ -59,10 +59,9 @@ h1 {
 .heroImage {
   max-width: 100%; /* max-width doesn't behave correctly in legacy IE */
   margin:0 auto;
-  display: flex;
   position: fixed;
-  bottom: 0px;
-  right: 0px
+  bottom: 325px;
+  right: 550px
 }
 
 .heroImage img{
