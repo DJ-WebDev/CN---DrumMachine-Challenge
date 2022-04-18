@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #7F7F7F;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -25,6 +26,7 @@ p {
   font-weight: 800;
   font-size: 45px;
   text-align: center;
+  text-shadow: 2px 2px #FF8C32;
   margin-bottom: 0px;
 
 
@@ -49,6 +51,7 @@ h1 {
   font-weight: 800;
   font-size: 45px;
   text-align: center;
+  text-shadow: 2px 2px limegreen;
   margin-top: 550px;
   margin-bottom: 0px;
 }
@@ -92,6 +95,7 @@ h1 {
   width: 100px;
   height: 100px;
   transition: width 2s;
+  text-shadow: 2px 2px #FF8C32;
 }
 
 .name:hover {
