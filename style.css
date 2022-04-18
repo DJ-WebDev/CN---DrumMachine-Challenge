@@ -58,7 +58,7 @@ h1 {
 
 .heroImage {
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 325px;
   right: 550px
 }
